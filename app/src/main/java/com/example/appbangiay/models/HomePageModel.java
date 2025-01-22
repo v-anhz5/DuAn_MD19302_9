@@ -36,7 +36,7 @@ public class HomePageModel {
 
     // view all products
     private List<WishlistModel> viewAllProductList;
-    public HomePageModel(int type, String title, String backgroundColor, List<HorizontalProductScrollModel> horizontalProductScrollModelList, List<WishlistModel> viewAllProductList) {
+    public HomePageModel(int type, String title, String backgroundColor,  List<HorizontalProductScrollModel> horizontalProductScrollModelList, List<WishlistModel> viewAllProductList) {
         this.type = type;
         this.title = title;
         this.backgroundColor = backgroundColor;
@@ -58,7 +58,7 @@ public class HomePageModel {
     private String title;
     private List<HorizontalProductScrollModel> horizontalProductScrollModelList;
 
-    public HomePageModel(int type, String title, String backgroundColor, List<HorizontalProductScrollModel> horizontalProductScrollModelList) {
+    public HomePageModel(int type, String title, String backgroundColor,  List<HorizontalProductScrollModel> horizontalProductScrollModelList) {
         this.type = type;
         this.title = title;
         this.backgroundColor = backgroundColor;
