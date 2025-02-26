@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddAddressActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#8BC34A"
+            app:layout_anchor="@+id/appBarLayout"
+            app:layout_anchorGravity="center"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:nestedScrollingEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_address_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E6E6"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:text="Contact"
+                android:textColor="#676767"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/edit_text_address_fullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:ems="10"
+                android:hint="Full Name"
+                android:inputType="text"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textColor="#FF676767"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edit_text_address_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:ems="10"
+                android:hint="Phone Number"
+                android:inputType="text"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textColor="#FF676767"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_address_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E6E6"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:text="Address Information"
+                android:textColor="#676767"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/edit_text_address_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:ems="10"
+                android:hint="City"
+                android:inputType="text"
+                android:paddingTop="8dp"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingBottom="8dp"
+                android:textColor="#FF676767"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edit_text_address_district"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:background="@null"
+                android:ems="10"
+                android:hint="District"
+                android:inputType="text"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textColor="#FF676767"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edit_text_address_ward"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:ems="10"
+                android:hint="Ward"
+                android:inputType="text"
+                android:paddingTop="8dp"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingBottom="8dp"
+                android:textColor="#FF676767"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edit_text_address_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:ems="10"
+                android:gravity="start"
+                android:hint="Street name, house number"
+                android:inputType="textMultiLine"
+                android:paddingTop="8dp"
+                android:maxLines="3"
+                android:lines="2"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingBottom="8dp"
+                android:textColor="#FF676767"
+                android:textSize="16sp" />
+
+            <Button
+
+                android:background="@drawable/button_bg"
+                android:textColor="@color/white"
+                android:layout_margin="16dp"
+                android:id="@+id/save_address_btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textAllCaps="false"
+                android:text="Save" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
