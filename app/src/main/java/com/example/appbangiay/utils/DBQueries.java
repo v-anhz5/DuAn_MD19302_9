@@ -47,8 +47,6 @@ import java.util.Map;
 
 public class DBQueries {
 
-
-
     public static FirebaseFirestore firebaseFirestore = FirebaseFirestore.getInstance();
     public static List<CategoryModel> categoryModelList = new ArrayList<CategoryModel>();
     public static List<HomePageModel> homePageModelList = new ArrayList<HomePageModel>();
