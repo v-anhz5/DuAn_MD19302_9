@@ -23,13 +23,13 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
-import com.example.appbangiay.ProductDetailsActivity;
-import com.example.appbangiay.R;
-import com.example.appbangiay.ViewAllActivity;
-import com.example.appbangiay.models.HomePageModel;
-import com.example.appbangiay.models.HorizontalProductScrollModel;
-import com.example.appbangiay.models.SliderModel;
-import com.example.appbangiay.models.WishlistModel;
+import com.example.projectfinal.ProductDetailsActivity;
+import com.example.projectfinal.R;
+import com.example.projectfinal.ViewAllActivity;
+import com.example.projectfinal.models.HomePageModel;
+import com.example.projectfinal.models.HorizontalProductScrollModel;
+import com.example.projectfinal.models.SliderModel;
+import com.example.projectfinal.models.WishlistModel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -229,7 +229,7 @@ public class HomePageAdapter extends RecyclerView.Adapter {
         public void setHorizontalProductLayout(List<HorizontalProductScrollModel> horizontalProductScrollModelList, String title, String backgroundColor, List<WishlistModel> wishlistModelList) {
             horizontalContainer.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(backgroundColor)));
             horizontalLayoutTitle.setText(title);
-            if (horizontalProductScrollModelList.size() > 7) {
+            if (horizontalProductScrollModelList.size() > 3) {
                 horizontalLayoutViewAllButton.setVisibility(View.VISIBLE);
                 horizontalLayoutViewAllButton.setOnClickListener(new View.OnClickListener() {
                     @Override
