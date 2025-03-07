@@ -19,7 +19,7 @@ import com.example.projectfinal.R;
 import com.example.projectfinal.models.MyOrderItemModel;
 
 import java.util.List;
-
+//giao diện danh sách order
 public class MyOrderAdapter extends RecyclerView.Adapter<MyOrderAdapter.ViewHolder> {
 
     private List<MyOrderItemModel> myOrderItemModelList;
