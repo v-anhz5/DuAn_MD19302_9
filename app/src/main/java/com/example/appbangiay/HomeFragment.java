@@ -34,7 +34,7 @@ import com.example.projectfinal.models.WishlistModel;
 import java.util.ArrayList;
 import java.util.List;
 
-
+//Danh mục sản phẩm
 public class HomeFragment extends Fragment {
 
     public static SwipeRefreshLayout swipeRefreshLayout;

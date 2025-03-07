@@ -26,7 +26,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.HashMap;
 import java.util.Map;
-
+//Giao diện chọn địa chỉ
 public class MyAddressActivity extends AppCompatActivity {
 
     private int previousAddress;

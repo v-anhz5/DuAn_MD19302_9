@@ -23,7 +23,7 @@ import com.example.projectfinal.models.WishlistModel;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-
+//Danh mục sản phẩm
 public class CategoryActivity extends AppCompatActivity {
     private RecyclerView categoryRecyclerView;
     private HomePageAdapter homePageAdapter;

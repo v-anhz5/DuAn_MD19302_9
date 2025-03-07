@@ -30,7 +30,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
-
+//Giao diện thanh toán
 public class DeliveryActivity extends AppCompatActivity {
     public static boolean running_order_query = false;
     public static List<CartItemModel> cartItemModelList;
