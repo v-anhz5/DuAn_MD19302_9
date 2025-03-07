@@ -1,5 +1,5 @@
 package com.example.appbangiay.models;
-
+//Model cho trang chủ
 public class HorizontalProductScrollModel {
     private String productID;
     private String productImage;

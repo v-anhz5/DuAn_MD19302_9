@@ -1,5 +1,5 @@
 package com.example.appbangiay.models;
-
+//Model cho giỏ hàng
 public class CartItemModel {
     public static final int CART_ITEM = 0;
     public static final int TOTAL_AMOUNT = 1;

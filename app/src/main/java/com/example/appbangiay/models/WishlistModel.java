@@ -1,5 +1,5 @@
 package com.example.appbangiay.models;
-
+//Model cho danh mục yêu thích
 public class WishlistModel {
     private String productID;
     private String productImage;

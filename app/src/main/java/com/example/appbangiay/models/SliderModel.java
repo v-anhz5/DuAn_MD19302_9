@@ -1,5 +1,5 @@
 package com.example.appbangiay.models;
-
+//Model cho slider
 public class SliderModel {
     private String banner;
     private String backgroundColor;

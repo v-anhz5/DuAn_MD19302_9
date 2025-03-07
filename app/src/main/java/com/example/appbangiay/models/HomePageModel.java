@@ -1,5 +1,5 @@
 package com.example.appbangiay.models;
-
+///Model cho trang chủ
 import java.util.List;
 
 public class HomePageModel {

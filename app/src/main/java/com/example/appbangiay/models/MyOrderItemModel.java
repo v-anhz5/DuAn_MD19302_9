@@ -1,5 +1,5 @@
 package com.example.appbangiay.models;
-
+//Model cho đơn hàng
 public class MyOrderItemModel {
 
     private String orderID;

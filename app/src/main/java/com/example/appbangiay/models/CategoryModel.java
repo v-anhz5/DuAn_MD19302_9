@@ -1,5 +1,5 @@
 package com.example.appbangiay.models;
-
+//Model cho danh mục
 public class CategoryModel {
     private String categoryIconLink;
     private String categoryName;
