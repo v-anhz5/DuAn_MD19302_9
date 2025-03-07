@@ -22,7 +22,7 @@ import com.example.projectfinal.models.WishlistModel;
 import com.example.projectfinal.utils.DBQueries;
 
 import java.util.List;
-
+//danh sách yêu thích
 public class WishlistAdapter extends RecyclerView.Adapter<WishlistAdapter.ViewHolder> {
 
     private final List<WishlistModel> wishlistModelList;
