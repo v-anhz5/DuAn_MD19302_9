@@ -1,5 +1,5 @@
 package com.example.appbangiay.models;
-
+//Model cho địa chỉ
 public class AddressModel {
     private String fullName;
     private String phoneNumber;
