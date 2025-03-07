@@ -17,7 +17,7 @@ import com.example.projectfinal.R;
 import com.example.projectfinal.models.SliderModel;
 
 import java.util.List;
-
+//giao diện thanh trượt
 public class SliderAdapter extends PagerAdapter {
     private List<SliderModel> sliderModelList;
 
