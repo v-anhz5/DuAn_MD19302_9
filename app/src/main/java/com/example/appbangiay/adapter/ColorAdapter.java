@@ -1,6 +1,6 @@
 package com.example.appbangiay.adapter;
 
-
+//Màu item
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.util.Log;
