@@ -15,7 +15,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-
+//Giao diện chi tiết đơn hàng
 public class OrderDetailsActivity extends AppCompatActivity {
     private Button changeOrAddAddressBtn;
     private FirebaseUser currentUser;

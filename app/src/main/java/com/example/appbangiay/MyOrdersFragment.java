@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.projectfinal.adapter.MyOrderAdapter;
 import com.example.projectfinal.utils.DBQueries;
 import com.google.firebase.auth.FirebaseUser;
-
+//Giao diện đơn hàng
 public class MyOrdersFragment extends Fragment {
 
     public static MyOrderAdapter myOrderAdapter;

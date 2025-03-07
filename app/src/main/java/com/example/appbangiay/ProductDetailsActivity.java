@@ -45,7 +45,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+//Giao diện chi tiết sản phẩm
 public class ProductDetailsActivity extends AppCompatActivity {
     public static boolean running_wishlist_query = false;
     public static boolean isRunning_rating_query = false;

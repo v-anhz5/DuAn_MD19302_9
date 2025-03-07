@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.projectfinal.adapter.WishlistAdapter;
 import com.example.projectfinal.utils.DBQueries;
-
+//Giao diện danh sách yêu thích
 public class WishlistFragment extends Fragment {
 
     public WishlistFragment() {

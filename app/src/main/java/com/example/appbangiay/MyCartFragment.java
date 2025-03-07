@@ -20,7 +20,7 @@ import com.example.projectfinal.utils.DBQueries;
 
 import java.util.ArrayList;
 
-
+//Giao diện giỏ hàng
 public class MyCartFragment extends Fragment {
 
     public MyCartFragment() {

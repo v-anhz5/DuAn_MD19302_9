@@ -17,7 +17,7 @@ import com.example.projectfinal.models.HorizontalProductScrollModel;
 import com.example.projectfinal.models.WishlistModel;
 
 import java.util.List;
-
+//Giao diện danh sách sản phẩm
 public class ViewAllActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
