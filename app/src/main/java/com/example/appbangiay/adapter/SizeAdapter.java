@@ -14,7 +14,7 @@ import com.example.projectfinal.ProductDetailsActivity;
 import com.example.projectfinal.R;
 
 import java.util.List;
-
+// danh sách size
 public class SizeAdapter extends RecyclerView.Adapter {
     private List<String> sizeProducts;
     private int item_index = -1;
