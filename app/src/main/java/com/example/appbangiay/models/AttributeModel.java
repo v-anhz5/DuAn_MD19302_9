@@ -1,5 +1,5 @@
 package com.example.appbangiay.models;
-
+//Model cho thuộc tính
 public class AttributeModel {
     public static final int SIZE_TYPE = 0;
     public static final int COLOR_TYPE = 1;
