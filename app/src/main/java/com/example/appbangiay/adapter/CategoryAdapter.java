@@ -20,7 +20,7 @@ import com.example.projectfinal.R;
 import com.example.projectfinal.models.CategoryModel;
 
 import java.util.List;
-
+//Giao diện danh mục
 public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHolder> {
     private List<CategoryModel> categoryModelList;
     private int lastPosition = -1;

@@ -24,7 +24,7 @@ import com.example.projectfinal.models.CartItemModel;
 import com.example.projectfinal.utils.DBQueries;
 
 import java.util.List;
-
+//Giao diện giỏ hàng
 public class CartAdapter extends RecyclerView.Adapter {
 
     private List<CartItemModel> cartItemModelList;
