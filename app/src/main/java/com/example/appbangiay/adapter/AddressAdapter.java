@@ -17,7 +17,7 @@ import com.example.projectfinal.models.AddressModel;
 import com.example.projectfinal.utils.DBQueries;
 
 import java.util.List;
-
+//Giao diện danh sách địa chỉ
 public class AddressAdapter extends RecyclerView.Adapter<AddressAdapter.ViewHolder> {
 
     private List<AddressModel> addressModelList;

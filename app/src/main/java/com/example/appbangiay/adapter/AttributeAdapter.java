@@ -13,7 +13,7 @@ import com.example.projectfinal.R;
 import com.example.projectfinal.models.AttributeModel;
 
 import java.util.List;
-
+//Giao diện danh sách kích thước
 public class AttributeAdapter extends RecyclerView.Adapter {
 
     private List<AttributeModel> attributeModelList;
